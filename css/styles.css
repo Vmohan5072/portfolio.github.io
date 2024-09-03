@@ -13,7 +13,7 @@ body {
 /* Navigation Styles */
 nav {
     background-color: transparent;
-    padding: 10px 0;
+    padding: 20px 0; /* Increase padding to add height */
     position: fixed;
     width: 100%;
     top: 0;
@@ -30,13 +30,13 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 30px; /* Increase margin to spread out items */
 }
 
 nav ul li a {
     color: #000;  /* Black text */
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.3em; /* Slightly larger font size */
     position: relative;
     display: inline-block;
     transition: color 0.3s ease;
@@ -69,7 +69,7 @@ nav ul li a:hover::after {
     width: 33.33%;  /* Center box, middle 1/3 of the page */
     margin: auto;
     overflow: hidden;
-    padding-top: 60px; /* Add padding to compensate for fixed nav */
+    padding-top: 80px; /* Adjust padding to account for increased nav height */
 }
 
 /* Section Styles */
