@@ -82,14 +82,14 @@ section {
     align-items: center;
 }
 
-section h2 {
+section h2, section h1 {
     font-size: 2.5em;
     color: #444;
     margin-bottom: 20px;
 }
 
-/* Card Styles for Projects, Skills, Experience, Education, and Hobbies */
-.project-card, .skills-card, .experience-card, .education-card, .hobby-card {
+/* Card Styles for Welcome, Contact, Projects, Skills, Experience, Education, and Hobbies */
+.welcome-card, .contact-card, .project-card, .skills-card, .experience-card, .education-card, .hobby-card {
     background-color: #f0f4f8;
     border-radius: 8px;
     padding: 20px;
@@ -99,44 +99,30 @@ section h2 {
     box-sizing: border-box;
 }
 
-.project-card:hover, .skills-card:hover, .experience-card:hover, .education-card:hover, .hobby-card:hover {
+.welcome-card:hover, .contact-card:hover, .project-card:hover, .skills-card:hover, .experience-card:hover, .education-card:hover, .hobby-card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.project-info, .skills-info, .experience-info, .education-info, .hobby-info {
-    width: 100%;
-}
-
-.project-logo img, .skills-logo img, .experience-logo img, .education-logo img, .hobby-logo img {
-    width: 100px;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-    margin: 0 auto;
-}
-
-.project-card h3, .skills-card h3, .experience-card h3, .education-card h3, .hobby-card h3 {
+.welcome-card h3, .contact-card h3, .project-card h3, .skills-card h3, .experience-card h3, .education-card h3, .hobby-card h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.project-card p, .skills-card p, .experience-card p, .education-card p, .hobby-card p {
+.welcome-card p, .contact-card p, .project-card p, .skills-card p, .experience-card p, .education-card p, .hobby-card p {
     margin-bottom: 5px;
     text-align: center;
 }
 
-/* Gaming Subsection Styles */
-.game-subsection {
-    margin-top: 10px;
-    padding-left: 20px;
-    text-align: left;
+.contact-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.game-subsection h4 {
-    margin: 5px 0;
-    font-size: 1.2em;
-    color: #2c3e50;
+.contact-card ul li {
+    margin: 10px 0;
 }
 
 /* Link Styles */
@@ -146,38 +132,4 @@ a {
 
 a:hover {
     color: #3498db;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: auto;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-footer ul li {
-    margin: 10px 0;
-}
-
-footer ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-footer ul li a:hover {
-    color: #3498db;
-    text-decoration: underline;
 }
