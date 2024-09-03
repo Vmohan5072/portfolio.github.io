@@ -157,6 +157,8 @@ nav ul li a {
     text-align: left;
     color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 .project-card:hover {
@@ -173,4 +175,28 @@ nav ul li a {
 .project-card p {
     font-size: 1.1em;
     color: #ccc; /* Slightly lighter for readability */
+}
+
+/* GitHub Link Styling */
+.github-link {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.github-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.github-link:hover {
+    color: #2980b9; /* Darken on hover */
+}
+
+.github-link img:hover {
+    filter: brightness(0.7); /* Darken the icon on hover */
 }
