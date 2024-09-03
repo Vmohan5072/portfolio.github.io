@@ -116,12 +116,24 @@ section h2, section h1 {
 }
 
 /* Image Styling */
-.experience-logo img, .project-logo img {
-    width: 100px;  /* Adjust width as needed */
+.experience-logo img, .project-logo img, .education-logo img, .hobby-logo img {
+    width: 150px;  /* Adjust width as needed */
     height: auto;
     display: block;
     margin: 20px auto;  /* Center the image */
     border-radius: 8px;
+}
+
+/* Centering Company Names in Experience Tabs */
+.experience-info h4 {
+    text-align: center; /* Center company name */
+    font-weight: bold;
+}
+
+/* Specific Styling for Hobbies Subsections */
+.game-subsection p {
+    text-align: left; /* Align the specific text elements to the left */
+    margin-left: 20px; /* Optional: Add some left margin to indent the text */
 }
 
 /* Contact Card Styling */
