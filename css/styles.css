@@ -3,7 +3,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000; /* Black background */
+    background-color: #0a0075; /* Black background */
+    background-image: linear-gradient(to bottom left,#0B111C 0%, #17153A 50%, #13139b 100%);
     color: #fff; /* White text */
     min-height: 100vh;
     display: flex;
@@ -149,7 +150,7 @@ nav ul li a {
 
 /* Project Card Styles */
 .project-card {
-    background-color: #1e1e1e; /* Dark grey box */
+    background-color: #0B111C; /* Dark blue box */
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
