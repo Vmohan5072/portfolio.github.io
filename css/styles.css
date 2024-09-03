@@ -133,3 +133,44 @@ nav ul li a {
 .social-icons img:hover {
     filter: brightness(0.7) invert(1); /* Darken on hover */
 }
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 80px auto 0 auto; /* Spacing from top */
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+/* Project Card Styles */
+.project-card {
+    background-color: #1e1e1e; /* Dark grey box */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    color: #3498db; /* Highlight color */
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 1.1em;
+    color: #ccc; /* Slightly lighter for readability */
+}
