@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     color: #333;
 }
 
+/* Navigation Styles */
 nav {
     background-color: #333;
     padding: 10px 0;
@@ -27,18 +29,37 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    bottom: -5px;
+    left: 0;
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+    transform-origin: bottom right;
 }
 
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Container Styles */
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
+/* Section Styles */
 section {
     padding: 40px 0;
 }
@@ -49,6 +70,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
+/* Card Styles for Projects, Experience, Education, and Hobbies */
 .project-card, .experience-card, .education-card, .hobby-card {
     display: flex;
     justify-content: space-between;
@@ -57,6 +79,12 @@ section h2 {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover, .experience-card:hover, .education-card:hover, .hobby-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .project-info, .experience-info, .education-info, .hobby-info {
@@ -77,6 +105,7 @@ section h2 {
     margin-bottom: 5px;
 }
 
+/* Gaming Subsection Styles */
 .game-subsection {
     margin-top: 10px;
     padding-left: 20px;
@@ -88,6 +117,16 @@ section h2 {
     color: #2c3e50;
 }
 
+/* Link Styles */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
@@ -109,8 +148,10 @@ footer ul li {
 footer ul li a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 footer ul li a:hover {
+    color: #3498db;
     text-decoration: underline;
 }
