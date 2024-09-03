@@ -49,7 +49,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
-.project-card, .experience-card {
+.project-card, .experience-card, .education-card, .hobby-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,31 +59,33 @@ section h2 {
     margin-bottom: 20px;
 }
 
-.project-info, .experience-info {
+.project-info, .experience-info, .education-info, .hobby-info {
     width: 70%;
 }
 
-.project-logo img, .experience-logo img {
+.project-logo img, .experience-logo img, .education-logo img, .hobby-logo img {
     width: 100px;
     height: auto;
     border-radius: 8px;
 }
 
-.project-card h3, .experience-card h3 {
+.project-card h3, .experience-card h3, .education-card h3, .hobby-card h3 {
     margin-bottom: 10px;
 }
 
-.project-card p, .experience-card p {
+.project-card p, .experience-card p, .education-card p, .hobby-card p {
     margin-bottom: 5px;
 }
 
-.project-card a {
-    color: #3498db;
-    text-decoration: none;
+.game-subsection {
+    margin-top: 10px;
+    padding-left: 20px;
 }
 
-.project-card a:hover {
-    text-decoration: underline;
+.game-subsection h4 {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #2c3e50;
 }
 
 footer {
