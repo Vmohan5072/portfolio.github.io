@@ -349,6 +349,12 @@ nav ul li a {
 .experience-content ul {
     list-style-type: disc;
     padding-left: 20px;
+    width: 75%;
+}
+
+.experience-content ul li {
+    width: 75%;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
 
 /* Education */
