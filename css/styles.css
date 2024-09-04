@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #0a0075; /* Black background */
-    background-image: linear-gradient(to bottom left,#0B111C 0%, #17153A 50%, #13139b 100%);
+    background-image: linear-gradient(to bottom left,#0B111C 0%, #17153A 30%, #13139b 100%);
     color: #fff; /* White text */
     min-height: 100vh;
     display: flex;
