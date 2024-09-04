@@ -369,15 +369,15 @@ nav ul li a {
 
 .gaming-card h3 {
     margin-bottom: 20px;
-    margin-top:0px;
-    font-size: 1.5em;
-    color: #3498db;
-    text-align: center;
+    margin-top: 0px;
+    font-size: 1.5em;  /* Same size as h4 */
+    color: #3498db;    /* Same color as h4 */
+    text-align: center; /* Center the h3 */
 }
 
 .gaming-card h4 {
     margin-bottom: 20px;
-    margin-top:0px;
+    margin-top: 0px;
     font-size: 1.5em;
     color: #3498db;
 }
