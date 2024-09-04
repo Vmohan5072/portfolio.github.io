@@ -157,8 +157,7 @@ nav ul li a {
     display: flex; /* Flexbox for alignment */
     justify-content: space-between;
     align-items: center;
-    width: 90%; /* Increase the width of the content card */
-    max-width: 1200px; /* Max width to control resizing */
+    width: 75%; /* Increase the width of the content card */
     margin: 40px auto; /* Center the card */
 }
 
@@ -181,10 +180,10 @@ nav ul li a {
 
 /* Image Styling */
 .content-card img {
-    min-width: 325px;
+    min-width: 225px;
     min-height: 150px;
-    max-width: 450px; /* Adjusted size */
-    max-height: 250px; /* Adjusted size */
+    max-width: 300px; /* Adjusted size */
+    max-height: 225px; /* Adjusted size */
     border-radius: 10px;
     margin-left: 30px;
     margin-right: 30px;
