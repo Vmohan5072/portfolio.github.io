@@ -327,3 +327,8 @@ nav ul li a {
     align-items: center;    /* Center the items vertically */
     padding-top: 50px;      /* Add padding at the top to align the grid vertically */
 }
+
+#skills .h2 {
+    width: 100%;
+    align-items: center;
+}
