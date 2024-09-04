@@ -145,20 +145,20 @@ nav ul li a {
 
 /* Content Card Styles */
 .content-card {
-    background: rgba(84, 84, 84, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(84, 84, 84, 0.3); /* Dark grey with translucency */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light translucent border */
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
     color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     display: block;
-    width: 100%;
+    width: 80%;  /* Reducing the width */
     margin: 40px auto;
 }
-
 .content-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
@@ -197,18 +197,20 @@ nav ul li a {
 .github-link {
     display: flex;
     align-items: center;
+    justify-content: center; /* Center the logo */
+    margin-top: 20px;
     font-size: 1.1em;
     color: #3498db;
     text-decoration: none;
     position: absolute;
-    right: 20px;
-    bottom: -30px; /* Adjusted position */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the logo at the bottom */
 }
 
 .github-link img {
-    width: 48px;
-    height: 48px;
-    margin-right: 10px;
+    width: 50px;  /* Reduced logo size */
+    height: 50px;
 }
 
 .github-link:hover {
