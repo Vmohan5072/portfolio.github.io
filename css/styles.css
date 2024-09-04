@@ -330,6 +330,15 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+.company-name {
+    font-size: 1.2em;
+    color: #3498db;
+    text-align: right;
 }
 
 .company-info h4 {
@@ -345,7 +354,9 @@ nav ul li a {
 .experience-dates {
     font-size: 1.1em;
     color: #ccc;
-    margin-left: 10px;
+    text-align: right;
+    margin-left: 0px;
+
 }
 
 .experience-content ul {
