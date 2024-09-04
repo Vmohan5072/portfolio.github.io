@@ -28,13 +28,13 @@ nav {
     align-items: center; /* Vertically center items */
 }
 
-
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex; /* Display the list items in a row */
 }
+
 nav ul li {
     display: inline;
     margin-left: 30px;
@@ -95,8 +95,8 @@ nav ul li a {
 
 /* Experience Card Styles */
 .experience-card {
-    background: rgba(84, 84, 84, 0.3); /* Dark grey with translucency */
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Light translucent border */
+    background: rgba(84, 84, 84, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
@@ -106,7 +106,7 @@ nav ul li a {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     display: block;
-    width: 80%;  /* Reducing the width */
+    width: 80%;
     margin: 40px auto;
 }
 
@@ -317,14 +317,35 @@ nav ul li a {
 /* Experience */
 .experience-content {
     display: flex;
+    flex-direction: column;
+}
+
+.position-title {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.company-info {
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    align-items: baseline;
+}
+
+.company-info h4 {
+    font-size: 1.2em;
+    color: #3498db;
 }
 
 .experience-content .text {
     width: 70%;
     text-align: left;
+}
+
+.experience-dates {
+    font-size: 1.1em;
+    color: #ccc;
+    margin-left: 10px;
 }
 
 .experience-content ul {
