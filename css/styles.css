@@ -159,8 +159,8 @@ nav ul li a {
 }
 
 .hobbies-card h3 {
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     font-size: 1.5em;  /* Same size as h4 */
     color: #3498db;    /* Same color as h4 */
     text-align: center; /* Center the h3 */
@@ -386,7 +386,7 @@ nav ul li a {
 .gaming-card h4 {
     margin-bottom: 20px;
     margin-top: 0px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #3498db;
 }
 
