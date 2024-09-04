@@ -154,6 +154,9 @@ nav ul li a {
     color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content-card:hover {
@@ -170,6 +173,14 @@ nav ul li a {
 .content-card p {
     font-size: 1.1em;
     color: #ccc; /* Slightly lighter for readability */
+}
+
+.content-card img {
+    max-width: 30%; /* Adjust size as needed */
+    max-height: 100px; /* Adjust size as needed */
+    border-radius: 10px;
+    margin-left: 20px;
+    object-fit: cover; /* Ensure images fit within the given dimensions */
 }
 
 /* GitHub Link Styling */
