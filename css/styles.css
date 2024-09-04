@@ -181,8 +181,8 @@ nav ul li a {
 
 /* Image Styling */
 .content-card img {
-    max-width: 50%; /* Adjusted size */
-    max-height: 200px; /* Adjusted size */
+    max-width: 100%; /* Adjusted size */
+    max-height: 250px; /* Adjusted size */
     border-radius: 10px;
     margin-left: 20px;
     object-fit: contain; /* Ensure images fit within the given dimensions */
