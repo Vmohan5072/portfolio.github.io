@@ -160,7 +160,6 @@ nav ul li a {
     margin: 40px auto; /* Center the card */
 }
 
-
 .content-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
