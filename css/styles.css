@@ -82,12 +82,6 @@ nav ul li a {
     margin: 40px auto;
 }
 
-.education-card img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-}
-
 /* Experience Card Styles */
 .experience-card {
     background: rgba(84, 84, 84, 0.3); /* Dark grey with translucency */
@@ -105,13 +99,6 @@ nav ul li a {
     margin: 40px auto;
 }
 
-.experience-card img {
-    max-width: 150px;
-    max-height: 100px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
 /* Project Card Styles */
 .projects-card {
     background: rgba(84, 84, 84, 0.3); /* Dark grey with translucency */
@@ -125,13 +112,8 @@ nav ul li a {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     display: block;
-    width: 70%;  /* Reducing the width */
+    width: 80%;  /* Reducing the width */
     margin: 40px auto;
-}
-
-.projects-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .projects-card .github-link {
@@ -163,13 +145,6 @@ nav ul li a {
     display: block;
     width: 80%;  /* Reducing the width */
     margin: 40px auto;
-}
-
-.hobbies-card img {
-    width: 300px;
-    height: auto;
-    margin-left: 30px;
-    border-radius: 10px;
 }
 
 .intro-text {
@@ -283,16 +258,6 @@ nav ul li a {
     color: #ccc;
 }
 
-/* Image Styling */
-.content-card img {
-    min-width: 225px;
-    min-height: 150px;
-    max-width: 300px;
-    max-height: 225px;
-    border-radius: 10px;
-    object-fit: contain;
-}
-
 /* Projects */
 .projects-container {
     display: flex;
@@ -336,11 +301,6 @@ nav ul li a {
     width: 100%;
 }
 
-.experience-content img {
-    max-width: 120px;
-    max-height: 100px;
-}
-
 .experience-content .text {
     width: 70%;
     text-align: left;
@@ -349,29 +309,12 @@ nav ul li a {
 .experience-content ul {
     list-style-type: disc;
     padding-left: 20px;
-    width: 75%;
-}
-
-.experience-content ul li {
-    width: 75%;
-    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
 
 /* Education */
 .content-wrapper {
-    width: 70%;
+    width: 100%;
     text-align: left;
-}
-
-.image-wrapper {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-wrapper img {
-    max-width: 100px;
 }
 
 /* Skills Grid Layout */
