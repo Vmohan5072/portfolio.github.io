@@ -181,10 +181,13 @@ nav ul li a {
 
 /* Image Styling */
 .content-card img {
-    max-width: 100%; /* Adjusted size */
+    min-width: 325px;
+    min-height: 150px;
+    max-width: 450px; /* Adjusted size */
     max-height: 250px; /* Adjusted size */
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     object-fit: contain; /* Ensure images fit within the given dimensions */
 }
 
