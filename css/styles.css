@@ -65,6 +65,102 @@ nav ul li a {
     padding-top: 100px;
 }
 
+/* Education Card Styles */
+.education-card {
+    background: rgba(84, 84, 84, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust this as per need */
+    margin: 40px auto;
+}
+
+.education-card img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Experience Card Styles */
+.experience-card {
+    background: rgba(64, 64, 64, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%; /* Adjusted for Experience */
+    margin: 50px auto;
+}
+
+.experience-card img {
+    max-width: 150px;
+    max-height: 100px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+/* Project Card Styles */
+.projects-card {
+    background: rgba(84, 84, 84, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #fff;
+    position: relative;
+    width: 75%; /* Narrowed for projects */
+    margin: 40px auto;
+}
+
+.projects-card .github-link {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+}
+
+.projects-card .github-link img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Hobbies Card Styles */
+.hobbies-card {
+    background: rgba(84, 84, 84, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%; /* Adjust for Hobbies */
+    margin: 50px auto;
+}
+
+.hobbies-card img {
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
 .intro-text {
     max-width: 600px;
 }
