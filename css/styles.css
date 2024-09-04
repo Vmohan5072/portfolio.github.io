@@ -157,6 +157,9 @@ nav ul li a {
     display: flex; /* Flexbox for alignment */
     justify-content: space-between;
     align-items: center;
+    width: 80%; /* Increase the width of the content card */
+    max-width: 1000px; /* Max width to control resizing */
+    margin: 40px auto; /* Center the card */
 }
 
 .content-card:hover {
@@ -165,22 +168,23 @@ nav ul li a {
 }
 
 .content-card h3 {
-    font-size: 1.8em;
+    font-size: 2em;
     color: #3498db; /* Highlight color */
     margin-bottom: 15px;
 }
 
 .content-card p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #ccc; /* Slightly lighter for readability */
 }
 
+/* Image Styling */
 .content-card img {
-    max-width: 30%; /* Adjust size as needed */
-    max-height: 100px; /* Adjust size as needed */
+    max-width: 50%; /* Adjusted size */
+    max-height: 150px; /* Adjusted size */
     border-radius: 10px;
     margin-left: 20px;
-    object-fit: cover; /* Ensure images fit within the given dimensions */
+    object-fit: contain; /* Ensure images fit within the given dimensions */
 }
 
 /* GitHub Link Styling */
