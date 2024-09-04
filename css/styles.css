@@ -322,16 +322,18 @@ nav ul li a {
 }
 
 /* Skills Grid Layout */
-#skills .container {
+#skills .skills-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
     gap: 20px;
     justify-items: center;  /* Center the items horizontally */
-    align-items: center;    /* Center the items vertically */
-    padding-top: 50px;      /* Add padding at the top to align the grid vertically */
+    align-items: start;    /* Align the items to start vertically */
+    width: 80%; /* Adjust the width to ensure it aligns nicely */
+    margin: 0 auto; /* Center the container */
+    padding-top: 20px; /* Adjust padding if needed */
 }
-
-#skills .h2 {
+#skills h2 {
+    text-align: center;
     width: 100%;
-    align-items: center;
+    margin-bottom: 20px; /* Add some space between the title and the grid */
 }
