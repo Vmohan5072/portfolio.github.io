@@ -185,7 +185,7 @@ nav ul li a {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     display: block;
-    width: 80%;
+    width: 60%;
     margin: 40px auto;
 }
 
@@ -218,9 +218,9 @@ nav ul li a {
 
 /* Add image for m4.png */
 #hobbies .cars-card img {
-    max-width: 300px; /* Ensuring it's not too large or too small */
+    max-width: 600px; /* Ensuring it's not too large or too small */
     height: auto;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 /* Other general styles */
