@@ -23,17 +23,25 @@ nav {
     text-align: left;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1000;
+    display: flex;
+    justify-content: space-between; /* Ensures items are spaced between */
 }
+
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex; /* To display items in a row */
+    align-items: center;
 }
-
 nav ul li {
     display: inline;
     margin-left: 30px;
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Ensure the first item has no extra left margin */
 }
 
 nav ul li a {
@@ -50,6 +58,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    margin-left: auto; /* Pushes the resume button to the far right */
 }
 
 .resume-button:hover {
