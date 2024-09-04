@@ -197,6 +197,33 @@ nav ul li a {
     text-align: center;
 }
 
+/* Specific change for adding image to cars section */
+#hobbies .cars-card {
+    background: rgba(84, 84, 84, 0.3); /* Dark grey with translucency */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#hobbies .cars-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Add image for m4.png */
+#hobbies .cars-card img {
+    max-width: 300px; /* Ensuring it's not too large or too small */
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Other general styles */
 .intro-text {
     max-width: 600px;
 }
