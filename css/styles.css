@@ -144,15 +144,16 @@ nav ul li a {
 
 /* Project Card Styles */
 .project-card {
-    background: rgba(84, 84, 84, 0.3); /* Dark grey with translucency */
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Light translucent border */
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.61);
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: left;
     color: #fff;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
 }
 
