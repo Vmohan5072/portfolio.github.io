@@ -125,8 +125,13 @@ nav ul li a {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     display: block;
-    width: 80%;  /* Reducing the width */
+    width: 70%;  /* Reducing the width */
     margin: 40px auto;
+}
+
+.projects-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .projects-card .github-link {
