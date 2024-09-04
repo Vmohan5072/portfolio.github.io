@@ -238,7 +238,8 @@ nav ul li a {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     display: block;
-    width: 80%;  /* Reducing the width */
+    width: 90%;  /* Reducing the width */
+    max-width: 500px;
     margin: 40px auto;
 }
 .content-card:hover {
@@ -322,4 +323,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    justify-items: center;  /* Center the items horizontally */
+    align-items: center;    /* Center the items vertically */
+    padding-top: 50px;      /* Add padding at the top to align the grid vertically */
 }
